@@ -1,0 +1,6 @@
+$schema: file:C:/<path-to-July-2022-schema-bug-bash>/schema/commandJob.schema.json
+command: pip freeze
+environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu:1
+name: "Test"
+display_name: "Test"
+compute: "azureml:<your-compute>"
